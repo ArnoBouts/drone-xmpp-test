@@ -1,4 +1,6 @@
 pipeline:
 
   notify:
-    image: no-cloud.fr/drone/xmpp
+    image: appleboy/drone-gtalk
+    message: "test message"
+    secrets: [ plugin_google_host, plugin_google_username, plugin_google_password, plugin_to ]
