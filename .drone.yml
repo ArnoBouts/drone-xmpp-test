@@ -2,4 +2,3 @@ pipeline:
 
   notify:
     image: no-cloud.fr/drone-xmpp
-    secrets: [ plugin_jid, plugin_password, plugin_to ]
