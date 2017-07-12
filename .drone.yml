@@ -3,8 +3,3 @@ pipeline:
   notify:
     image: no-cloud.fr/drone-xmpp
     secrets: [ xmpp_jid, xmpp_password, xmpp_to ]
-
-  gtalk:
-    image: appleboy/drone-gtalk
-    google_host: talk.google.com:443
-    secrets: [ plugin_google_username, plugin_google_password, plugin_to ]
